@@ -1,7 +1,78 @@
 @import '_reset-style';
+@import '_variables';
 
 html,body {
     height: 100%;
+    //font-family: 'Anton', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10;
+}
+.header {
+    background-color: $purple;
+    padding: 46px 0 252px;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+    }
+
+    &__menu {
+    }
+
+    &__list {
+        display: flex;
+    }
+    &__list li {
+        margin: 0 0 0 50px;
+    }
+
+    &__link {
+        font-size: 24px;
+        font-weight: 500;
+        color: $white;
+        text-transform: uppercase;
+        padding: 5px 14px;
+        border-radius: 8px;
+        transition: all 0.3s ease 0s;
+    }
+    &__link:hover {
+        background-color: $dark-purple;
+    }
+
+    &__body {
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 68px;
+        font-family: 'Anton', sans-serif;
+        color: $white;
+        letter-spacing: 4px;
+        margin: 130px 0 0;
+    }
+
+    &__btn {
+        display: flex;
+        margin: 130px auto 0;
+        padding: 27px 78px;
+        background-color: $yellow;
+        border-radius: 8px;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+}
+
+
 
 
