@@ -79,11 +79,12 @@ html, body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1475px;
   margin: 0 auto;
-  padding: 0 10;
+  padding: 0 10px;
 }
 
+/* ===================================================================================================================================== */
 .header {
   background-color: #A554B2;
   padding: 46px 0 252px;
@@ -101,6 +102,10 @@ html, body {
           align-items: center;
 }
 
+.header__logo {
+  margin-left: 16px;
+}
+
 .header__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,7 +113,7 @@ html, body {
 }
 
 .header__list li {
-  margin: 0 0 0 50px;
+  margin: 0 0 0 22px;
 }
 
 .header__link {
@@ -131,15 +136,16 @@ html, body {
   font-size: 68px;
   font-family: 'Anton', sans-serif;
   color: #FFFFFF;
-  letter-spacing: 4px;
-  margin: 130px 0 0;
+  letter-spacing: 5.2px;
+  line-height: 100px;
+  margin: 190px 0 0;
 }
 
 .header__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 130px auto 0;
+  margin: 177px auto 0;
   padding: 27px 78px;
   background-color: #E8FA67;
   border-radius: 8px;
@@ -147,4 +153,86 @@ html, body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* ===================================================================================================================================== */
+.service {
+  background-color: #8DB261;
+  padding: 130px 0;
+}
+
+.service__title {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  color: #FFFFFF;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.service__line {
+  margin: 30px auto;
+  width: 100px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.service__subtitle {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.service__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 130px 0 0;
+}
+
+.card {
+  /*     &__social {        
+        text-align: center;
+        margin: 30px 0;
+    }
+    &__icon {
+        margin: 5px 0 0 0;
+    } */
+}
+
+.card__top {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.card__top img {
+  max-width: 100%;
+}
+
+.card__theme {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 60px 0 0 0;
+  color: #FFFFFF;
+}
+
+.card__description {
+  max-width: 282px;
+  font-size: 26px;
+  color: #FFFFFF;
+  margin: 60px 0 0 0;
+}
+
+/* ===================================================================================================================================== */
+/* ===================================================================================================================================== */
+/* ===================================================================================================================================== */
+/* ===================================================================================================================================== */
+/* ===================================================================================================================================== */
 /*# sourceMappingURL=style.css.map */

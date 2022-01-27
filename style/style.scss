@@ -8,10 +8,12 @@ html,body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1475px;
     margin: 0 auto;
-    padding: 0 10;
+    padding: 0 10px;
 }
+/* ===================================================================================================================================== */
+
 .header {
     background-color: $purple;
     padding: 46px 0 252px;
@@ -23,6 +25,7 @@ html,body {
     }
 
     &__logo {
+        margin-left: 16px;
     }
 
     &__menu {
@@ -32,7 +35,7 @@ html,body {
         display: flex;
     }
     &__list li {
-        margin: 0 0 0 50px;
+        margin: 0 0 0 22px;
     }
 
     &__link {
@@ -56,13 +59,14 @@ html,body {
         font-size: 68px;
         font-family: 'Anton', sans-serif;
         color: $white;
-        letter-spacing: 4px;
-        margin: 130px 0 0;
+        letter-spacing: 5.2px;
+        line-height: 100px;
+        margin: 190px 0 0;
     }
 
     &__btn {
         display: flex;
-        margin: 130px auto 0;
+        margin: 177px auto 0;
         padding: 27px 78px;
         background-color: $yellow;
         border-radius: 8px;
@@ -72,7 +76,96 @@ html,body {
 
     }
 }
+/* ===================================================================================================================================== */
+.service {
+    background-color: $green;
+    padding: 130px 0;
 
+    &__body {
+    }
+
+    &__top {
+    }
+
+    &__title {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 48px;
+        color: $white;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    &__line {
+        margin: 30px auto;
+        width: 100px;
+        height: 10px;
+        background-color: #fff;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 24px;
+        color: $white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0 0;
+    }
+
+    &__cards {
+    }
+}
+.card {
+
+    &__top {
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+    }
+    &__top img {
+        max-width: 100%;
+
+    }
+
+    &__theme {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 60px 0 0 0;
+        color: $white;
+    }
+
+    &__description {
+        max-width: 282px;
+        font-size: 26px;
+        color: $white;
+        margin: 60px 0 0 0;
+    }
+/*     &__social {        
+        text-align: center;
+        margin: 30px 0;
+    }
+    &__icon {
+        margin: 5px 0 0 0;
+    } */
+}
+
+/* ===================================================================================================================================== */
+
+/* ===================================================================================================================================== */
+
+/* ===================================================================================================================================== */
+
+/* ===================================================================================================================================== */
+
+/* ===================================================================================================================================== */
 
 
 
