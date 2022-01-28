@@ -106,6 +106,18 @@ html, body {
   line-height: 38px;
 }
 
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 0;
+  padding: 27px 78px;
+  border-radius: 8px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* ===================================================================================================================================== */
 .header {
   background-color: #A554B2;
@@ -157,20 +169,11 @@ html, body {
   color: #FFFFFF;
   letter-spacing: 5.2px;
   line-height: 100px;
-  margin: 190px 0 0;
+  margin: 190px 0 177px;
 }
 
 .header__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 177px auto 0;
-  padding: 27px 78px;
   background-color: #E8FA67;
-  border-radius: 8px;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 /* ===================================================================================================================================== */
@@ -387,7 +390,7 @@ html, body {
 
 /* ===================================================================================================================================== */
 .portfolio {
-  padding: 143px 0 0;
+  padding: 143px 0 130px;
   background-color: #CFD799;
 }
 
@@ -460,6 +463,12 @@ html, body {
           justify-content: space-between;
 }
 
+.portfolio__btn {
+  background-color: #A554B2;
+  color: #FFFFFF;
+  margin-top: 94px;
+}
+
 .card-portfolio__top {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 700px;
@@ -480,7 +489,7 @@ html, body {
 }
 
 .card-portfolio__name {
-  margin: 51px 0 39px;
+  margin: 51px 0 41px;
   font-family: 'Anton', sans-serif;
   font-size: 24px;
   letter-spacing: 2px;
@@ -490,5 +499,83 @@ html, body {
 }
 
 /* ===================================================================================================================================== */
+.testimonials {
+  padding: 143px 0 30px;
+  background-color: #D6618E;
+}
+
+.testimonials__top {
+  margin: 0 0 130px;
+}
+
+.testimonials__title {
+  color: #FFFFFF;
+}
+
+.testimonials__line {
+  background-color: #FFFFFF;
+}
+
+.testimonials__subtitle {
+  color: #FFFFFF;
+}
+
+.testimonials__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 65px;
+}
+
+.testimonials__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 660px;
+}
+
+.card-testimonials__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  margin: 0 20px 0 0;
+}
+
+.card-testimonials__image img {
+  max-width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-testimonials__text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 35px;
+  max-width: 480px;
+  margin: 0 0 33px;
+}
+
+.card-testimonials__name {
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  margin: 0 0 24px;
+}
+
+.card-testimonials__position {
+  font-size: 18px;
+  color: #FFC83C;
+  margin: 15px 0 0 0;
+  text-transform: uppercase;
+  margin: 0 0 106px;
+}
+
 /* ===================================================================================================================================== */
 /*# sourceMappingURL=style.css.map */
