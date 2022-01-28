@@ -12,11 +12,38 @@ html,body {
     margin: 0 auto;
     padding: 0 10px;
 }
+
+.titles {
+
+    &__head {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 48px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    &__line {
+        margin: 30px auto 33px;
+        width: 200px;
+        height: 5px;
+    }
+
+    &__foot {
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 24px;
+        letter-spacing: 2px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+}
+
 /* ===================================================================================================================================== */
 
 .header {
-    background-color: $purple;
-    padding: 46px 0 252px;
+    background-color: $crayola;
+    padding: 38px 0 252px;
 
     &__top {
         display: flex;
@@ -48,7 +75,7 @@ html,body {
         transition: all 0.3s ease 0s;
     }
     &__link:hover {
-        background-color: $dark-purple;
+        background-color: $purple;
     }
 
     &__body {
@@ -81,36 +108,19 @@ html,body {
     background-color: $green;
     padding: 117px 0 126px;
 
-    &__body {
-    }
-
     &__top {
     }
 
     &__title {
-        text-align: center;
-        font-family: 'Anton', sans-serif;
-        font-size: 48px;
         color: $white;
-        letter-spacing: 5px;
-        text-transform: uppercase;
     }
 
     &__line {
-        margin: 30px auto 33px;
-        width: 200px;
-        height: 5px;
         background-color: #fff;
     }
 
     &__subtitle {
-        text-align: center;
-        font-family: 'Anton', sans-serif;
-        font-size: 24px;
         color: $white;
-        letter-spacing: 2px;
-        line-height: 38px;
-        text-transform: uppercase;
     }
 
     &__block {
@@ -122,7 +132,7 @@ html,body {
     &__cards {
     }
 }
-.card {
+.card-service {
 
     &__top {
         width: 180px;
@@ -160,8 +170,161 @@ html,body {
 }
 
 /* ===================================================================================================================================== */
+.team {
+    padding: 117px 0 126px;
+    background-color: $lavender;
+
+    &__top {
+    }
+
+    &__title {
+        color: $asphalt;
+    }
+
+    &__line {
+        background-color: $asphalt;
+    }
+
+    &__subtitle {
+        color: $asphalt;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-around;
+        margin: 133px 0 0 0;
+    }
+
+    &__card {
+        max-width: 282px;
+    }
+}
+.card-team {
+
+    &__top {
+        margin: 0 auto;
+        width: 170px;
+        height: 170px;
+    }
+    &__top img {
+        max-width: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: $grey;
+        border: 10px solid $grey;
+    }
+
+    &__name {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        margin: 51px 0 0 0;
+    }
+
+    &__position {
+        text-align: center;
+        font-size: 18px;
+        color: $blue;
+        text-transform: uppercase;
+        margin: 20px 0 0 0;
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 26px;
+        line-height: 34px;
+        color: $grey;
+        margin: 51px 0 0 0;
+    }
+
+    &__social {
+        margin: 30px 0 0 0; 
+        text-align: center;
+    }
+
+    &__icon {
+        margin: 0 8px;
+    }
+}
 
 /* ===================================================================================================================================== */
+.skills {
+    padding: 130px 0 130px;
+
+    &__top {
+    }
+
+    &__title {
+        color: $asphalt;
+    }
+
+    &__line {
+        background-color: $asphalt;
+    }
+
+    &__subtitle {
+        color: $asphalt;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0 0 0;
+    }
+
+    &__cards {
+        text-align: center;
+    }
+}
+.card-skills {
+
+    &__graph {
+    }
+
+    &__level {
+        position: relative;
+    }
+
+    &__percent {
+        position: absolute;
+        font-family: 'Anton', sans-serif;
+        font-size: 52px;
+    }
+
+    &__percent span {
+        font-size: 32px;
+    }
+
+    &__icon {
+        margin: 85px 0 25px;
+    }
+
+    &__theme {
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.percent-1 {
+    left: 85px;
+    margin-top: -155px;
+}
+
+.percent-2 {
+    left: 736px;
+    margin-top: -155px;
+}
+
+.percent-3 {
+    left: 1100px;
+    margin-top: -155px;
+}
+
+.percent-4 {
+    left: 1460px;
+    margin-top: -155px;
+}
 
 /* ===================================================================================================================================== */
 
