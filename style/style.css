@@ -107,11 +107,11 @@ html, body {
 }
 
 .btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
+  text-align: center;
   margin: 0 auto 0;
-  padding: 27px 78px;
+  width: 450px;
+  height: 100px;
   border-radius: 8px;
   font-size: 36px;
   font-weight: 700;
@@ -564,7 +564,7 @@ html, body {
 .card-testimonials__name {
   font-family: 'Anton', sans-serif;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #D5F6F5;
   letter-spacing: 2px;
   margin: 0 0 24px;
 }
@@ -578,4 +578,86 @@ html, body {
 }
 
 /* ===================================================================================================================================== */
+.contact {
+  padding: 143px 0 58px;
+  background-color: #7B94C7;
+}
+
+.contact__title {
+  color: #FFFFFF;
+}
+
+.contact__line {
+  background-color: #FFFFFF;
+}
+
+.contact__subtitle {
+  color: #FFFFFF;
+}
+
+.contact__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 60px 0 0;
+}
+
+.contact__name {
+  height: 69px;
+  width: 690px;
+  background-color: #002770;
+}
+
+.contact__email {
+  height: 69px;
+  width: 690px;
+  background-color: #002770;
+}
+
+.contact__bottom {
+  padding: 60px 0 0;
+}
+
+.contact__field {
+  height: 300px;
+  width: 100%;
+  background-color: #002770;
+  margin: 0 0 60px;
+}
+
+.contact__btn {
+  background-color: #A554B2;
+  color: #FFFFFF;
+}
+
+.contact__social {
+  margin: 62px 0 0;
+}
+
+.contact__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__link {
+  font-size: 24px;
+  font-weight: 700;
+  color: #E9E9E0;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.contact__link:hover {
+  color: #44CEEC;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 /*# sourceMappingURL=style.css.map */

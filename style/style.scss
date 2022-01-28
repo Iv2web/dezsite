@@ -38,9 +38,11 @@ html,body {
     }
 }
 .btn {
-    display: flex;
+    display: block;
+    text-align: center;
     margin: 0 auto 0;
-    padding: 27px 78px;
+    width: 450px;
+    height: 100px;
     border-radius: 8px;
     font-size: 36px;
     font-weight: 700;
@@ -484,7 +486,7 @@ html,body {
     &__name {
         font-family: 'Anton', sans-serif;
         font-size: 24px;
-        color: $white;
+        color: #D5F6F5;
         letter-spacing: 2px;
         margin: 0 0 24px;
     }
@@ -497,8 +499,84 @@ html,body {
         margin: 0 0 106px;
     }
 }
-
 /* ===================================================================================================================================== */
+.contact {
+    padding: 143px 0 58px;
+    background-color: #7B94C7;
+    &__top {
+    }
+
+    &__title {
+        color: $white;
+    }
+
+    &__line {
+        background-color: $white;
+    }
+
+    &__subtitle {
+        color: $white;
+    }
+
+    &__box {
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0 0;
+    }
+
+    &__name {
+        height: 69px;
+        width: 690px;
+        background-color: #002770;
+    }
+
+    &__email {
+        height: 69px;
+        width: 690px;
+        background-color: #002770;
+    }
+
+    &__bottom {
+        padding: 60px 0 0;
+    }
+
+    &__field {
+        height: 300px;
+        width: 100%;
+        background-color: #002770;
+        margin: 0 0 60px;
+    }
+
+    &__btn {
+        background-color: $crayola;
+        color: $white;
+    }
+
+    &__social {
+        margin: 62px 0 0;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        font-size: 24px;
+        font-weight: 700;
+        color: #E9E9E0;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+    }
+
+    &__link:hover {        
+        color: #44CEEC;
+        transition: all 0.3s ease 0s;
+    }
+}
 
 
 
