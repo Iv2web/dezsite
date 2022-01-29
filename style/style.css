@@ -76,6 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 html, body {
   height: 100%;
   font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -254,15 +255,15 @@ html, body {
 }
 
 .team__title {
-  color: #4F4E4E;
+  color: #4f4e4e;
 }
 
 .team__line {
-  background-color: #4F4E4E;
+  background-color: #4f4e4e;
 }
 
 .team__subtitle {
-  color: #4F4E4E;
+  color: #4f4e4e;
 }
 
 .team__block {
@@ -330,15 +331,15 @@ html, body {
 }
 
 .skills__title {
-  color: #4F4E4E;
+  color: #4f4e4e;
 }
 
 .skills__line {
-  background-color: #4F4E4E;
+  background-color: #4f4e4e;
 }
 
 .skills__subtitle {
-  color: #4F4E4E;
+  color: #4f4e4e;
 }
 
 .skills__block {
@@ -431,7 +432,7 @@ html, body {
   width: 116px;
   height: 40px;
   border-radius: 8px;
-  background-color: #FFC83C;
+  background-color: #ffc83c;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -484,7 +485,7 @@ html, body {
 
 .card-portfolio__link img {
   max-width: 100%;
-  border: #FFC83C solid 10px;
+  border: #ffc83c solid 10px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -513,10 +514,10 @@ html, body {
 
 .tiles__tile:before {
   content: "";
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#654816));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #654816 100%);
   width: 100%;
-  height: 50%;
+  height: 60%;
   opacity: 0;
   position: absolute;
   top: 100%;
@@ -529,7 +530,7 @@ html, body {
 }
 
 .tiles__tile .tiles__details {
-  font-size: 16px;
+  font-size: 24px;
   padding: 20px;
   color: #fff;
   position: absolute;
@@ -554,13 +555,13 @@ html, body {
 .tiles__tile .tiles__details .tiles__title {
   line-height: 1;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .tiles__tile .tiles__details .tiles__info {
   line-height: 1.2;
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 24px;
 }
 
 .tiles__tile:focus:before, .tiles__tile:focus span, .tiles__tile:hover:before, .tiles__tile:hover span {
@@ -568,7 +569,7 @@ html, body {
 }
 
 .tiles__tile:focus:before, .tiles .tiles__tile:hover:before {
-  top: 50%;
+  top: 40%;
 }
 
 .tiles__tile:focus span, .tiles .tiles__tile:hover span {
@@ -658,7 +659,7 @@ html, body {
 
 .card-testimonials__position {
   font-size: 18px;
-  color: #FFC83C;
+  color: #ffc83c;
   margin: 15px 0 0 0;
   text-transform: uppercase;
   margin: 0 0 106px;
