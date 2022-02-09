@@ -125,6 +125,13 @@ body {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
+  -webkit-box-shadow: 8px 8px 8px -2px rgba(78, 87, 74, 0.9);
+          box-shadow: 8px 8px 8px -2px rgba(78, 87, 74, 0.9);
+}
+
+.btn:hover {
+  -webkit-box-shadow: 8px 8px 8px -2px rgba(78, 87, 74, 0.9) inset;
+          box-shadow: 8px 8px 8px -2px rgba(78, 87, 74, 0.9) inset;
 }
 
 /* ===================================================================================================================================== */
@@ -411,22 +418,6 @@ body {
   max-width: 100%;
 }
 
-/* .percent-1 {
-  left: 90px;
-}
-
-.percent-2 {
-  left: 740px;
-}
-
-.percent-3 {
-  left: 1100px;
-}
-
-.percent-4 {
-  left: 1465px;
-}
- */
 /* ===================================================================================================================================== */
 .portfolio {
   padding: 143px 0 130px;
@@ -464,14 +455,16 @@ body {
   height: 40px;
   border-radius: 8px;
   background-color: #ffc83c;
+  -webkit-box-shadow: 4px 4px 8px -2px rgba(78, 87, 74, 0.9);
+          box-shadow: 4px 4px 8px -2px rgba(78, 87, 74, 0.9);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
 .portfolio__list li:hover {
   background-color: #FF932A;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-box-shadow: 4px 4px 8px -2px rgba(78, 87, 74, 0.9) inset;
+          box-shadow: 4px 4px 8px -2px rgba(78, 87, 74, 0.9) inset;
 }
 
 .portfolio__link {
