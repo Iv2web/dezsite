@@ -278,6 +278,8 @@ body {
   }
 }
 .card-skills {
+  max-width: 250px;
+  text-align: center;
   &__graph {
     height: 250px;
     position: relative;
@@ -323,6 +325,7 @@ body {
     font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
+    max-width: 100%;
   }
 }
 

@@ -352,6 +352,11 @@ body {
   margin: 130px 0 0 0;
 }
 
+.card-skills {
+  max-width: 250px;
+  text-align: center;
+}
+
 .card-skills__graph {
   height: 250px;
   position: relative;
@@ -403,6 +408,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
+  max-width: 100%;
 }
 
 /* .percent-1 {
