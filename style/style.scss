@@ -57,8 +57,10 @@ body {
 /* ===================================================================================================================================== */
 
 .header {
-  background-color: $crayola;
-  padding: 45px 0 252px;
+  &__body {
+    background-color: $crayola;
+    padding: 50px 0px 250px 0px;
+  }
 
   &__top {
     display: flex;
@@ -93,7 +95,7 @@ body {
     background-color: $purple;
   }
 
-  &__body {
+  &__bottom {
   }
 
   &__title {
@@ -109,6 +111,9 @@ body {
   &__btn {
     background-color: $yellow;
   }
+}
+.fourohfour {
+  background-color: #d6a9dd;
 }
 /* ===================================================================================================================================== */
 .service {
