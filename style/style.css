@@ -73,9 +73,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-html, body {
+html,
+body {
   height: 100%;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -87,7 +88,7 @@ html, body {
 
 .titles__head {
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 48px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -101,7 +102,7 @@ html, body {
 
 .titles__foot {
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 24px;
   letter-spacing: 2px;
   line-height: 38px;
@@ -173,7 +174,7 @@ html, body {
 .header__title {
   text-align: center;
   font-size: 68px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   color: #FFFFFF;
   letter-spacing: 5.2px;
   line-height: 100px;
@@ -351,8 +352,20 @@ html, body {
   margin: 130px 0 0 0;
 }
 
-.skills__cards {
-  text-align: center;
+.card-skills__graph {
+  height: 100px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-skills__graph img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 }
 
 .card-skills__level {
@@ -361,9 +374,12 @@ html, body {
 
 .card-skills__percent {
   position: absolute;
-  font-family: 'Anton', sans-serif;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  font-family: "Anton", sans-serif;
   font-size: 52px;
-  margin-top: -155px;
 }
 
 .card-skills__percent span {
@@ -380,7 +396,7 @@ html, body {
   text-transform: uppercase;
 }
 
-.percent-1 {
+/* .percent-1 {
   left: 90px;
 }
 
@@ -395,11 +411,11 @@ html, body {
 .percent-4 {
   left: 1465px;
 }
-
+ */
 /* ===================================================================================================================================== */
 .portfolio {
   padding: 143px 0 130px;
-  background-color: #CFD799;
+  background-color: #cfd799;
 }
 
 .portfolio__title {
@@ -492,7 +508,7 @@ html, body {
 
 .card-portfolio__name {
   margin: 34px 0 32px;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 24px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -564,24 +580,30 @@ html, body {
   font-size: 24px;
 }
 
-.tiles__tile:focus:before, .tiles__tile:focus span, .tiles__tile:hover:before, .tiles__tile:hover span {
+.tiles__tile:focus:before,
+.tiles__tile:focus span, .tiles__tile:hover:before,
+.tiles__tile:hover span {
   opacity: 1;
 }
 
-.tiles__tile:focus:before, .tiles .tiles__tile:hover:before {
+.tiles__tile:focus:before,
+.tiles .tiles__tile:hover:before {
   top: 40%;
 }
 
-.tiles__tile:focus span, .tiles .tiles__tile:hover span {
+.tiles__tile:focus span,
+.tiles .tiles__tile:hover span {
   top: 0;
 }
 
-.tiles__tile:focus .tiles__title, .tiles .tiles__tile:hover .tiles__title {
+.tiles__tile:focus .tiles__title,
+.tiles .tiles__tile:hover .tiles__title {
   -webkit-transition-delay: 0.15s;
           transition-delay: 0.15s;
 }
 
-.tiles__tile:focus .tiles__info, .tiles .tiles__tile:hover .tiles__info {
+.tiles__tile:focus .tiles__info,
+.tiles .tiles__tile:hover .tiles__info {
   -webkit-transition-delay: 0.25s;
           transition-delay: 0.25s;
 }
@@ -589,7 +611,7 @@ html, body {
 /* ===================================================================================================================================== */
 .testimonials {
   padding: 143px 0 30px;
-  background-color: #D6618E;
+  background-color: #d6618e;
 }
 
 .testimonials__top {
@@ -650,9 +672,9 @@ html, body {
 }
 
 .card-testimonials__name {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 24px;
-  color: #D5F6F5;
+  color: #d5f6f5;
   letter-spacing: 2px;
   margin: 0 0 24px;
 }
@@ -668,7 +690,7 @@ html, body {
 /* ===================================================================================================================================== */
 .contact {
   padding: 143px 0 58px;
-  background-color: #7B94C7;
+  background-color: #7b94c7;
 }
 
 .contact__title {
@@ -693,16 +715,23 @@ html, body {
   padding: 60px 0 0;
 }
 
+.contact__form {
+  background-color: #002770;
+  font-size: 38px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  top: 0;
+}
+
 .contact__name {
   height: 69px;
   width: 690px;
-  background-color: #002770;
 }
 
 .contact__email {
   height: 69px;
   width: 690px;
-  background-color: #002770;
 }
 
 .contact__bottom {
@@ -712,7 +741,6 @@ html, body {
 .contact__field {
   height: 300px;
   width: 100%;
-  background-color: #002770;
   margin: 0 0 60px;
 }
 
@@ -737,14 +765,14 @@ html, body {
 .contact__link {
   font-size: 24px;
   font-weight: 700;
-  color: #E9E9E0;
+  color: #e9e9e0;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
 .contact__link:hover {
-  color: #44CEEC;
+  color: #44ceec;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
