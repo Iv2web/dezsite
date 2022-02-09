@@ -279,7 +279,7 @@ body {
 }
 .card-skills {
   &__graph {
-    height: 100px;
+    height: 250px;
     position: relative;
     background-position: center;
     background-size: cover;
@@ -294,21 +294,24 @@ body {
   }
 
   &__level {
-    position: relative;
-  }
-
-  &__percent {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0px;
     left: 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__percent {
     font-family: "Anton", sans-serif;
     font-size: 52px;
     //margin-top: -155px;
   }
 
   &__percent span {
+    bottom: 0;
     font-size: 32px;
   }
 
