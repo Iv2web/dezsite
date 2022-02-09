@@ -412,6 +412,8 @@ body {
     flex: 0 0 700px;
   }
   &__link {
+    text-decoration: none;
+    color: $cuttlefish;
   }
 
   &__link img {
@@ -426,7 +428,6 @@ body {
     font-size: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: $cuttlefish;
     text-align: center;
   }
 }
@@ -642,6 +643,7 @@ body {
   &__btn {
     background-color: $crayola;
     color: $white;
+    text-align: center;
   }
 
   &__social {

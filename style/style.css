@@ -507,6 +507,11 @@ body {
           flex: 0 0 700px;
 }
 
+.card-portfolio__link {
+  text-decoration: none;
+  color: #654816;
+}
+
 .card-portfolio__link img {
   max-width: 100%;
   border: #ffc83c solid 10px;
@@ -520,7 +525,6 @@ body {
   font-size: 24px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #654816;
   text-align: center;
 }
 
@@ -755,6 +759,7 @@ body {
 .contact__btn {
   background-color: #A554B2;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .contact__social {
