@@ -112,6 +112,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  cursor: pointer;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -135,6 +136,21 @@ body {
 }
 
 /* ===================================================================================================================================== */
+.header {
+  /* &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0px;
+    background-color: #d6618e;
+    @media (max-width: 768px) {
+      top: 0;
+    }
+  } */
+}
+
 .header__body {
   background-color: #A554B2;
   padding: 50px 0px 250px 0px;
@@ -151,6 +167,56 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 7px;
+}
+
+.header__logo {
+  z-index: 2;
+}
+
+.header__burger {
+  z-index: 2;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .header__burger::before, .header__burger::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    background-color: #fff;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .header__burger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    top: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #d6618e;
+  }
 }
 
 .header__list {
@@ -739,12 +805,12 @@ body {
 
 .contact__name {
   height: 69px;
-  width: 690px;
+  width: 49%;
 }
 
 .contact__email {
   height: 69px;
-  width: 690px;
+  width: 49%;
 }
 
 .contact__bottom {
