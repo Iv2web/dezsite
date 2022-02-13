@@ -110,11 +110,10 @@ body {
 
   &__btn {
     background-color: $yellow;
+    color: #000;
   }
 }
-.fourohfour {
-  background-color: #d6a9dd;
-}
+
 /* ===================================================================================================================================== */
 .service {
   background-color: $green;
@@ -671,5 +670,47 @@ body {
   &__link:hover {
     color: #44ceec;
     transition: all 0.3s ease 0s;
+  }
+}
+/* ===================================================================================================================================== */
+
+.fourohfour {
+  height: 100vh;
+  background-color: #e29ed1;
+  padding: 80px 0px 0px 0px;
+
+  &__row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__image {
+    flex: 0 0 40%;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__info {
+  }
+}
+.info {
+  max-width: 23.5%;
+  &__text {
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 48px;
+    margin: 0px 0px 180px 0px;
+    text-align: justify;
+  }
+
+  &__btn {
+    background-color: #a554b2;
+    color: #000;
+    text-transform: capitalize;
+    width: 100%;
   }
 }

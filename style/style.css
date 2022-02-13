@@ -190,10 +190,7 @@ body {
 
 .header__btn {
   background-color: #E8FA67;
-}
-
-.fourohfour {
-  background-color: #d6a9dd;
+  color: #000;
 }
 
 /* ===================================================================================================================================== */
@@ -792,5 +789,55 @@ body {
   color: #44ceec;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+}
+
+/* ===================================================================================================================================== */
+.fourohfour {
+  height: 100vh;
+  background-color: #e29ed1;
+  padding: 80px 0px 0px 0px;
+}
+
+.fourohfour__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourohfour__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.fourohfour__image img {
+  width: 100%;
+}
+
+.info {
+  max-width: 23.5%;
+}
+
+.info__text {
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 48px;
+  margin: 0px 0px 180px 0px;
+  text-align: justify;
+}
+
+.info__btn {
+  background-color: #a554b2;
+  color: #000;
+  text-transform: capitalize;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
